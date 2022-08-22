@@ -12,8 +12,8 @@ def add_date_to_list():
     dato = input("Dato: ")
     
     #Gjør om dato til tre forskjellige variabler
-    dag = dato[0] + dato[1]
-    maaned = dato[3] + dato[4]
+    dag = dato[0:1]
+    maaned = dato[3:4]
     
     #Legger til dag og måned til x
     x.append(dag)

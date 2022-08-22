@@ -14,7 +14,7 @@ def celsius_fahrenheit(temp_celsius):
 
 
 while True:
-    valg = input("Konverter\f1. C --> F\f2. F --> C\f1 eller 2?: ")
+    valg = input("Konverter\f1. C° --> F°\f2. F° --> C°\f1 eller 2?: ")
     temp = input("Hvilke temperatur vil du konvertere?\fTemperatur: ")
     if valg == "1":
         print(celsius_fahrenheit(int(temp)))
