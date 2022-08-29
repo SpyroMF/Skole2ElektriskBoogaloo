@@ -1,0 +1,31 @@
+Først defineres minFunksjon(), 
+den inneholder en for-løkke som kjører 2 ganger 
+ved hjelp av range(2) funksjonen.
+Første gang den kjører, skriver den ut c, som har verdien 2
+Deretter skriver den ut b som er lik 2(Linje 3)+1(Linje 5)+10(Linje 6 og 7)
+Dette blir 13, og den returnerer dette tilbake i minFunksjon()
+Den gjør dette 2 ganger
+
+Etter minFunksjon, kommer hovedprogram() som skriver ut b med verdien 0
+etter det skriver den ut a hvor verdien er den returnerte verdien i 
+minFunksjon() som er 13. den skriver ut verdien av b som er 42 etter linje 15
+
+på linje 20 starter hele koden, det er første linje som kjøres. 
+Den kjører hovedprogram() funksjonen
+
+Så før jeg kjører koden vil jeg tro at cmd'en vil se no sån her ut:
+Disse linjene kjøres i denne rekkefølgen
+1. Linje 20
+2. Linje 12 -> 17
+3. Linje 3 -> 9
+4. Linje 3 -> 9
+5. Linje 16 -> 18
+
+(parentes = hvilke linje)
+0   (14)
+42  (17)
+2   (3)
+13  (8)
+2   (3)
+13  (8)
+13  (18)
